@@ -1,0 +1,227 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:40px;
+	height: 100%;
+  	/* overflow: hidden; */
+  	text-align: center;
+  	/* overflow:auto;
+  	background-image: url("https://images4.alphacoders.com/264/thumb-1920-264676.jpg");
+	 */
+}
+.header{
+	vertical-align:top;
+	margin-bottom:100px;
+	color: teal;
+/* 	text-shadow:0 0 20px gold; */
+}
+.vote_bar{
+	border:1px solid black;
+	width:90%;
+	height:15px;
+	padding:5px;
+	margin-left:3%;
+	margin-bottom:3%;
+	margin-top:2%;
+}
+
+#progress{
+	width:0%;
+	height:15px;
+	background:linear-gradient(white, gold,gold, white);
+}
+
+.image{
+	width:20%;
+/* 	height: 40%; */
+	display:inline-block;
+	/* margin-left:%;
+	margin-bottom:7%; */
+	background-color:white;
+	margin: 2%;
+	vertical-align:top;
+	border: 1px solid grey;
+	padding: 20px 20px 35px 20px;
+}
+
+.photo_name{
+	font-weight:bold;
+	font-size:20px;
+/* 	margin-left:35%; */
+}
+
+.image img{
+	width:85%;
+	padding-right:15px;
+	padding-left:15px;
+	padding-top:10px;
+}
+
+.pic_div{
+	background-color:black;
+	width:100%;
+}
+
+.navbar{
+	font-size: 16px;
+	margin-left: 105px;
+	padding: 8px;
+}
+.navbar a{
+	color: black;
+	background: none;
+	border:none;
+	padding: 8px;
+}
+.navbar a:hover{
+	color: #3d6374;
+	background:none;
+}
+
+
+.wrapper {
+  padding-top: 10px;
+  position: absolute;
+}
+
+.like_button {
+  position: absolute; 
+  width: 50px;
+  height: 50px;
+ /*  border-radius: 50%; */
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body, .message, .form, form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 700px;
+  height: 515px;
+  background: white;
+  position: relative;
+  display: grid;
+  grid-template: 100% / 50% 50%;
+  box-shadow: 2px 2px 10px 0 rgb(0,100,0);
+  border-radius:50% 20% / 10% 40%;
+}
+.message {
+  position: absolute;
+  background: white;
+  width: 50%;
+  height: 100%;
+  transition: 0.5s all ease;
+  transform: translateX(100%);
+  z-index: 4;
+}
+.message:before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 70%;
+  background: #c3c3d8;
+  opacity: 0;
+  left: 0;
+  top: 15%;
+}
+.message .button {
+  margin: 5px 0;
+}
+.signup:before {
+  opacity: 0.3;
+  left: 0;
+}
+.login:before {
+  opacity: 0.3;
+  left: 100%;
+}
+.btn-wrapper {
+  width: 60%;
+}
+.form {
+  width: 100%;
+  height: 100%;
+}
+.form--heading {
+  font-size: 40px;
+  font-weight:bold;
+  height: 50px;
+  color:Gold;
+  text-shadow:0 0 3px RoyalBlue;
+  font-family: 'Playfair Display', serif;
+}
+form {
+  width: 70%;
+  color:Black;
+}
+form > * {
+  margin: 10px;
+}
+form input {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid rgba(195, 195, 216, 0.5);
+  font-size: 16px;
+  font-weight: 300;
+  color: teal;
+  letter-spacing: 0.11em;
+}
+form input::placeholder {
+  color: #c3c3d8;
+  font-size: 10px;
+}
+form input:focus {
+  outline: 0;
+  border-bottom: 1px solid rgba(128, 155, 206, 0.7);
+  transition: 0.6s all ease;
+}
+
+select{
+	background-color:gold;
+	color:teal;
+	width:100%;
+}
+.button {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  color: Black;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  letter-spacing: 2px;
+  background: linear-gradient(45deg, orange,gold, yellow);
+  font-family: 'Playfair Display', serif;
+}
+
+.signOne{
+	width:90%;
+}
+
+.button:hover {
+  transform: translateY(4px);
+  transition: 0.4s all ease;
+}
+@media (max-width: 750px) {
+  .container {
+    transform: scale(0.8);
+  }
+}

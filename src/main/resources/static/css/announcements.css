@@ -1,0 +1,148 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: sans-serif;
+}
+
+body{
+	text-align:center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.header{
+	background: teal;
+ 	text-align:left;
+	width:100%;
+}
+.header h4{
+	display:inline-block;
+	text-align: left;
+	color: white;
+	width: 25%;
+	font-weight: lighter;
+	margin: 2px 0px 0px 15px;
+} 
+.header a{
+	color: white;
+}
+.header a:hover{
+	background: none;
+	color: #5cb0ff;
+}
+.search{
+	display:inline-block;
+	text-align:center;
+	width: 45%;
+	/* margin: 5px; */
+	margin: 0.35% 5% 0.45% 5%;
+}
+#search{
+	font-size: 20px;
+}
+
+.search button{
+    border: none;
+} 
+.search button:hover{
+	background: #17a2b8c2;
+}
+.search p{
+	text-align: left;
+}
+.search input{
+	width: 70%;
+	color: grey;
+	border-radius: 3px;
+	height: 30px;
+	padding: 3px;
+}
+
+.logout{
+	width: 15%;
+	text-align: right;
+	display:inline-block;
+}
+.logout a{
+	color: white;
+	margin: 10px;
+	text-align: right;
+}
+.logout a:hover{
+	background: none;
+	color: #5cb0ff;
+}
+h1{
+	font-size: 35px;
+	text-align:left;
+	padding: 5px;
+	color: #009afc;
+	font-weight: lighter;
+
+}
+
+#win{
+	margin-left: 65px;
+	margin-top: 20px;
+}
+
+p{
+	color: grey;
+}
+.title{
+	text-transform: uppercase;
+	color: #009afc;
+	font-size: 30px;
+}
+img{
+	height: 430px;
+/* 	padding: 10px; */
+	/* background: linear-gradient(Turquoise,white,Turquoise); */
+	/* border-radius: 20px; */
+	/* box-shadow: 0 15px 20px rgba(0.1, 0.1, 0.1, 0.1); */
+}
+
+.left{
+	display:inline-block;
+	padding: 20px;
+}
+.right{
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+	padding: 20px;
+}
+
+h6{
+	display:inline-block;
+	padding: 5px;
+}
+h3{
+	color:LightSeaGreen;
+	font-weight: lighter;
+}
+h3 a{
+	color: #009afc;
+}
+h3 a:hover{
+	color: teal;
+}
+
+#but{
+	color: white;
+}
+button {
+	margin: 5px;
+    font-size: 15px;
+    padding: 8px;
+    color: white;
+    border-color: #17a2b8;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #17a2b8;
+  }
+button:hover {
+    background: rgb(53, 211, 211);
+  }
